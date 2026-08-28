@@ -1,0 +1,621 @@
+{
+    "restart_count": 3,
+    "intents": [
+        {
+            "tag": "words",
+            "patterns": [
+                "hru",
+                "what",
+                "4\u00d73",
+                "# =====================================================================",
+                "cya",
+                "wait fr",
+                "yeah",
+                "ok bye",
+                "hey mat",
+                "say very smart",
+                "why"
+            ],
+            "corpus": "How are you holding up out there? Always ready to calculate some formulas or chat about something interesting. say very smart I. say very smart How are you holding up out there bitch want are want. why How are you holding up out there bitch want are want like want like have.",
+            "transitions": {
+                "<START>": {
+                    "i": 3,
+                    "how": 4,
+                    "say": 4,
+                    "why": 2
+                },
+                "how": {
+                    "smart": 2,
+                    "are": 4
+                },
+                "smart": {
+                    "are": 2,
+                    "<END>": 4
+                },
+                "are": {
+                    "you": 6,
+                    "want": 2
+                },
+                "you": {
+                    "holding": 4,
+                    "doing": 2,
+                    "<END>": 2
+                },
+                "holding": {
+                    "up": 4
+                },
+                "up": {
+                    "out": 4
+                },
+                "out": {
+                    "there": 4
+                },
+                "there": {
+                    "<END>": 2,
+                    "bitch": 2
+                },
+                "say": {
+                    "very": 4
+                },
+                "very": {
+                    "smart": 4
+                },
+                "i": {
+                    "<END>": 1
+                },
+                "<START> i": {
+                    "<END>": 1
+                },
+                "bitch": {
+                    "want": 2
+                },
+                "want": {
+                    "are": 2,
+                    "<END>": 1,
+                    "like": 2
+                },
+                "<START> how": {
+                    "are": 2
+                },
+                "how are": {
+                    "you": 2
+                },
+                "are you": {
+                    "holding": 2
+                },
+                "you holding": {
+                    "up": 2
+                },
+                "holding up": {
+                    "out": 2
+                },
+                "up out": {
+                    "there": 2
+                },
+                "out there": {
+                    "bitch": 2
+                },
+                "there bitch": {
+                    "want": 2
+                },
+                "bitch want": {
+                    "are": 2
+                },
+                "want are": {
+                    "want": 2
+                },
+                "are want": {
+                    "<END>": 1,
+                    "like": 1
+                },
+                "<START> how are": {
+                    "you": 2
+                },
+                "how are you": {
+                    "holding": 2
+                },
+                "are you holding": {
+                    "up": 2
+                },
+                "you holding up": {
+                    "out": 2
+                },
+                "holding up out": {
+                    "there": 2
+                },
+                "up out there": {
+                    "bitch": 2
+                },
+                "out there bitch": {
+                    "want": 2
+                },
+                "there bitch want": {
+                    "are": 2
+                },
+                "bitch want are": {
+                    "want": 2
+                },
+                "want are want": {
+                    "<END>": 1,
+                    "like": 1
+                },
+                "<START> how are you": {
+                    "holding": 2
+                },
+                "how are you holding": {
+                    "up": 2
+                },
+                "are you holding up": {
+                    "out": 2
+                },
+                "you holding up out": {
+                    "there": 2
+                },
+                "holding up out there": {
+                    "bitch": 2
+                },
+                "up out there bitch": {
+                    "want": 2
+                },
+                "out there bitch want": {
+                    "are": 2
+                },
+                "there bitch want are": {
+                    "want": 2
+                },
+                "bitch want are want": {
+                    "<END>": 1,
+                    "like": 1
+                },
+                "why": {
+                    "<END>": 2
+                },
+                "like": {
+                    "want": 1,
+                    "have": 1
+                },
+                "have": {
+                    "<END>": 1
+                },
+                "want like": {
+                    "want": 1,
+                    "have": 1
+                },
+                "like want": {
+                    "like": 1
+                },
+                "like have": {
+                    "<END>": 1
+                },
+                "are want like": {
+                    "want": 1
+                },
+                "want like want": {
+                    "like": 1
+                },
+                "like want like": {
+                    "have": 1
+                },
+                "want like have": {
+                    "<END>": 1
+                },
+                "want are want like": {
+                    "want": 1
+                },
+                "are want like want": {
+                    "like": 1
+                },
+                "want like want like": {
+                    "have": 1
+                },
+                "like want like have": {
+                    "<END>": 1
+                }
+            }
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "yo",
+                "hey",
+                "whats up",
+                "hru",
+                "how are you",
+                "what",
+                "hello there"
+            ],
+            "corpus": "Yo! What is up human? Hello there! hey Yo there. how smart are you Yo there are are art. hey Hello there. yo I am doing great. how smart are you Hey. hello Hello there. yo Yo there. how smart are you Hello there. hello I am doing great are art art are. hello I am doing great bitch art bitch art. hello there Hey. how dangrerous are you Hello there. how dangerous are you I am doing great art are bitch bitch.",
+            "transitions": {
+                "<START>": {
+                    "yo": 10,
+                    "hello": 14,
+                    "i": 6,
+                    "hey": 6,
+                    "how": 10
+                },
+                "yo": {
+                    "what": 2,
+                    "there": 4,
+                    "<END>": 5
+                },
+                "what": {
+                    "is": 2,
+                    "up": 2
+                },
+                "is": {
+                    "up": 2
+                },
+                "up": {
+                    "human": 1,
+                    "there": 1,
+                    "<END>": 2
+                },
+                "hello": {
+                    "there": 8,
+                    "<END>": 6
+                },
+                "there": {
+                    "i": 1,
+                    "<END>": 10,
+                    "are": 1
+                },
+                "i": {
+                    "am": 6
+                },
+                "am": {
+                    "doing": 6,
+                    "great": 1
+                },
+                "doing": {
+                    "great": 6,
+                    "well": 1
+                },
+                "great": {
+                    "inside": 1,
+                    "today": 1,
+                    "<END>": 3,
+                    "are": 1,
+                    "bitch": 1,
+                    "art": 1
+                },
+                "hey": {
+                    "<END>": 6
+                },
+                "<START> yo": {
+                    "there": 3
+                },
+                "yo there": {
+                    "<END>": 2,
+                    "are": 1
+                },
+                "<START> yo there": {
+                    "<END>": 2,
+                    "are": 1
+                },
+                "how": {
+                    "smart": 6,
+                    "dangrerous": 2,
+                    "dangerous": 2
+                },
+                "smart": {
+                    "are": 6
+                },
+                "are": {
+                    "you": 10,
+                    "are": 1,
+                    "art": 2,
+                    "<END>": 1,
+                    "bitch": 1
+                },
+                "you": {
+                    "<END>": 10
+                },
+                "art": {
+                    "<END>": 2,
+                    "art": 1,
+                    "are": 2,
+                    "bitch": 1
+                },
+                "there are": {
+                    "are": 1
+                },
+                "are are": {
+                    "art": 1
+                },
+                "are art": {
+                    "<END>": 1,
+                    "art": 1
+                },
+                "yo there are": {
+                    "are": 1
+                },
+                "there are are": {
+                    "art": 1
+                },
+                "are are art": {
+                    "<END>": 1
+                },
+                "<START> yo there are": {
+                    "are": 1
+                },
+                "yo there are are": {
+                    "art": 1
+                },
+                "there are are art": {
+                    "<END>": 1
+                },
+                "<START> hello": {
+                    "there": 4
+                },
+                "hello there": {
+                    "<END>": 4
+                },
+                "<START> hello there": {
+                    "<END>": 4
+                },
+                "<START> i": {
+                    "am": 4
+                },
+                "i am": {
+                    "doing": 4
+                },
+                "am doing": {
+                    "great": 4
+                },
+                "doing great": {
+                    "<END>": 1,
+                    "are": 1,
+                    "bitch": 1,
+                    "art": 1
+                },
+                "<START> i am": {
+                    "doing": 4
+                },
+                "i am doing": {
+                    "great": 4
+                },
+                "am doing great": {
+                    "<END>": 1,
+                    "are": 1,
+                    "bitch": 1,
+                    "art": 1
+                },
+                "<START> i am doing": {
+                    "great": 4
+                },
+                "i am doing great": {
+                    "<END>": 1,
+                    "are": 1,
+                    "bitch": 1,
+                    "art": 1
+                },
+                "<START> hey": {
+                    "<END>": 2
+                },
+                "great are": {
+                    "art": 1
+                },
+                "art art": {
+                    "are": 1
+                },
+                "art are": {
+                    "<END>": 1,
+                    "bitch": 1
+                },
+                "doing great are": {
+                    "art": 1
+                },
+                "great are art": {
+                    "art": 1
+                },
+                "are art art": {
+                    "are": 1
+                },
+                "art art are": {
+                    "<END>": 1
+                },
+                "am doing great are": {
+                    "art": 1
+                },
+                "doing great are art": {
+                    "art": 1
+                },
+                "great are art art": {
+                    "are": 1
+                },
+                "are art art are": {
+                    "<END>": 1
+                },
+                "bitch": {
+                    "art": 2,
+                    "bitch": 1,
+                    "<END>": 1
+                },
+                "great bitch": {
+                    "art": 1
+                },
+                "bitch art": {
+                    "bitch": 1,
+                    "<END>": 1
+                },
+                "art bitch": {
+                    "art": 1
+                },
+                "doing great bitch": {
+                    "art": 1
+                },
+                "great bitch art": {
+                    "bitch": 1
+                },
+                "bitch art bitch": {
+                    "art": 1
+                },
+                "art bitch art": {
+                    "<END>": 1
+                },
+                "am doing great bitch": {
+                    "art": 1
+                },
+                "doing great bitch art": {
+                    "bitch": 1
+                },
+                "great bitch art bitch": {
+                    "art": 1
+                },
+                "bitch art bitch art": {
+                    "<END>": 1
+                },
+                "dangrerous": {
+                    "are": 2
+                },
+                "dangerous": {
+                    "are": 2
+                },
+                "great art": {
+                    "are": 1
+                },
+                "are bitch": {
+                    "bitch": 1
+                },
+                "bitch bitch": {
+                    "<END>": 1
+                },
+                "doing great art": {
+                    "are": 1
+                },
+                "great art are": {
+                    "bitch": 1
+                },
+                "art are bitch": {
+                    "bitch": 1
+                },
+                "are bitch bitch": {
+                    "<END>": 1
+                },
+                "am doing great art": {
+                    "are": 1
+                },
+                "doing great art are": {
+                    "bitch": 1
+                },
+                "great art are bitch": {
+                    "bitch": 1
+                },
+                "art are bitch bitch": {
+                    "<END>": 1
+                }
+            }
+        },
+        {
+            "tag": "royalty",
+            "patterns": [
+                "king",
+                "queen",
+                "palace",
+                "crown",
+                "monarch",
+                "empire"
+            ],
+            "corpus": "The royal bloodline guards the castle palace gates securely."
+        },
+        {
+            "tag": "swears",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "dumbass",
+                "shit",
+                "whore",
+                "fucker",
+                "cunt",
+                "idiot",
+                "fuck you",
+                "fuck off"
+            ],
+            "corpus": "fuck you too. oh you shitting me rn well fuck off bitch. fuck you Fuck off bitch. bitch ass mother fucker Fuck off bitch. fuck off Fuck off bitch.",
+            "transitions": {
+                "<START>": {
+                    "fuck": 11,
+                    "oh": 1,
+                    "your": 1,
+                    "bitch": 2
+                },
+                "fuck": {
+                    "you": 5,
+                    "off": 6
+                },
+                "you": {
+                    "too": 2,
+                    "bitch": 1,
+                    "<END>": 4
+                },
+                "oh": {
+                    "you": 1
+                },
+                "off": {
+                    "bitch": 4,
+                    "<END>": 2
+                },
+                "bitch": {
+                    "<END>": 5,
+                    "ass": 2
+                },
+                "<START> fuck": {
+                    "off": 3
+                },
+                "fuck off": {
+                    "bitch": 3
+                },
+                "off bitch": {
+                    "<END>": 3
+                },
+                "<START> fuck off": {
+                    "bitch": 3
+                },
+                "fuck off bitch": {
+                    "<END>": 3
+                },
+                "<START> fuck off bitch": {
+                    "<END>": 3
+                },
+                "ass": {
+                    "mother": 2
+                },
+                "mother": {
+                    "fucker": 2
+                },
+                "fucker": {
+                    "<END>": 2
+                }
+            }
+        },
+        {
+            "tag": "image_generation",
+            "patterns": [
+                "gen",
+                "make",
+                "create",
+                "generate",
+                "draw",
+                "image",
+                "picture",
+                "art"
+            ],
+            "corpus": ""
+        },
+        {
+            "tag": "ballistics",
+            "patterns": [
+                "gun",
+                "shot",
+                "weapon",
+                "bullet",
+                "firing",
+                "trigger"
+            ],
+            "corpus": "Ballistic trajectories map the precise velocity vectors of projectiles."
+        }
+    ]
+}
