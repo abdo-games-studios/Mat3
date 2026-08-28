@@ -1,3 +1,4 @@
+btw mat3 is a local ai it uses barely any ram or cpu power not gpu power cpu it doesn't need a gpu 
 mat v3.0 is acting actually weird it learnt some new Grammer rules I didn't tell it a lot are Grammer correct here's some from a second test run
 It learnt more than yo and there and bitch being correct in Grammer 
 {
