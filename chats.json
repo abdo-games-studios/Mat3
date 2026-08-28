@@ -1,0 +1,393 @@
+{
+    "1787770335858": {
+        "title": "Initial Chat Session",
+        "created_at": "2026-08-26T21:52:15.863930",
+        "history": [
+            {
+                "timestamp": "2026-08-26T21:52:24.660585",
+                "role": "user",
+                "content": "hey",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-26T21:52:24.698618",
+                "role": "ai",
+                "content": "Yo there.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "Yo there",
+                    "alt_pattern": "['yo', 'there']"
+                }
+            },
+            {
+                "timestamp": "2026-08-26T21:52:33.157966",
+                "role": "user",
+                "content": "how smart are you",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-26T21:52:33.175074",
+                "role": "ai",
+                "content": "Yo there are are art.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "Yo there",
+                    "alt_pattern": "['yo', 'there']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T00:57:39.148004",
+                "role": "user",
+                "content": "hey",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T00:57:39.164589",
+                "role": "ai",
+                "content": "Hello there.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "Hello there",
+                    "alt_pattern": "['hello', 'there']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T00:57:47.896635",
+                "role": "user",
+                "content": "yo",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T00:57:47.909416",
+                "role": "ai",
+                "content": "I am doing great.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "I am doing great",
+                    "alt_pattern": "['i', 'am', 'doing', 'great']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T00:58:20.769542",
+                "role": "user",
+                "content": "how smart are you",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T00:58:20.782428",
+                "role": "ai",
+                "content": "Hey.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "Hey",
+                    "alt_pattern": "['hey']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T00:59:06.586759",
+                "role": "user",
+                "content": "hello",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T00:59:06.603032",
+                "role": "ai",
+                "content": "Hello there.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "Hello there",
+                    "alt_pattern": "['hello', 'there']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T00:59:09.463817",
+                "role": "user",
+                "content": "yo",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T00:59:09.477684",
+                "role": "ai",
+                "content": "Yo there.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "Yo there",
+                    "alt_pattern": "['yo', 'there']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T00:59:17.895278",
+                "role": "user",
+                "content": "how smart are you",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T00:59:17.907857",
+                "role": "ai",
+                "content": "Hello there.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "Hello there",
+                    "alt_pattern": "['hello', 'there']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T00:59:26.186185",
+                "role": "user",
+                "content": "say very smart",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T00:59:26.199286",
+                "role": "ai",
+                "content": "I.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "words",
+                    "base_pattern": "I",
+                    "alt_pattern": "['i']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T00:59:31.503042",
+                "role": "user",
+                "content": "say very smart",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T00:59:31.519352",
+                "role": "ai",
+                "content": "How are you holding up out there bitch want are want.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "words",
+                    "base_pattern": "How are you holding up out there",
+                    "alt_pattern": "['how', 'are', 'you', 'holding', 'up', 'out', 'there']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T00:59:44.052343",
+                "role": "user",
+                "content": "fuck you",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T00:59:44.066882",
+                "role": "ai",
+                "content": "Fuck off bitch.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "swears",
+                    "base_pattern": "Fuck off bitch",
+                    "alt_pattern": "['fuck', 'off', 'bitch']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T01:00:27.135855",
+                "role": "user",
+                "content": "bitch ass mother fucker",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T01:00:27.152167",
+                "role": "ai",
+                "content": "Fuck off bitch.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "swears",
+                    "base_pattern": "Fuck off bitch",
+                    "alt_pattern": "['fuck', 'off', 'bitch']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T01:00:33.578491",
+                "role": "user",
+                "content": "fuck off",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T01:00:33.611002",
+                "role": "ai",
+                "content": "Fuck off bitch.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "swears",
+                    "base_pattern": "Fuck off bitch",
+                    "alt_pattern": "['fuck', 'off', 'bitch']"
+                }
+            }
+        ]
+    },
+    "1787782284978": {
+        "title": "testing",
+        "created_at": "2026-08-27T01:11:24.978792",
+        "history": [
+            {
+                "timestamp": "2026-08-27T01:11:36.527916",
+                "role": "user",
+                "content": "hello",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T01:11:36.599597",
+                "role": "ai",
+                "content": "I am doing great are art art are.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "I am doing great",
+                    "alt_pattern": "['i', 'am', 'doing', 'great']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T01:11:56.596528",
+                "role": "user",
+                "content": "hello",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T01:11:56.611879",
+                "role": "ai",
+                "content": "I am doing great bitch art bitch art.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "I am doing great",
+                    "alt_pattern": "['i', 'am', 'doing', 'great']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T01:12:11.686226",
+                "role": "user",
+                "content": "hello there",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T01:12:11.703869",
+                "role": "ai",
+                "content": "Hey.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "Hey",
+                    "alt_pattern": "['hey']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T01:12:45.542622",
+                "role": "user",
+                "content": "gen dog",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T01:12:45.551230",
+                "role": "ai",
+                "content": "[Image Generated]: matimg_1787782364176.png\n    Request: 'gen dog'\n    Mode: 2-number mode\n    Start: 7024694 (random)\n    Numbers: [660, 13930]\n    Final Seed: 97853987420\n    Process: text\u2192image \u2192 30% corrupted \u2192 noise \u2192 idk effects \u2192 PNG",
+                "meta": {
+                    "engine": "image_gen",
+                    "type": "image",
+                    "file": "matimg_1787782364176.png",
+                    "math_data": {
+                        "text": "gen dog",
+                        "mode": "2num",
+                        "start": 7024694,
+                        "numbers": [
+                            660,
+                            13930
+                        ],
+                        "final_seed": 97853987420,
+                        "num_count": 2
+                    }
+                }
+            },
+            {
+                "timestamp": "2026-08-27T01:13:30.413792",
+                "role": "user",
+                "content": "gen a ai",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T01:13:30.425940",
+                "role": "ai",
+                "content": "[Image Generated]: matimg_1787782409222.png\n    Request: 'gen a ai'\n    Mode: 4-number mode\n    Start: 1691435 (random)\n    Numbers: [677, 18256, 4801, 48]\n    Final Seed: 7115966311937280\n    Process: text\u2192image \u2192 30% corrupted \u2192 noise \u2192 idk effects \u2192 PNG",
+                "meta": {
+                    "engine": "image_gen",
+                    "type": "image",
+                    "file": "matimg_1787782409222.png",
+                    "math_data": {
+                        "text": "gen a ai",
+                        "mode": "4num",
+                        "start": 1691435,
+                        "numbers": [
+                            677,
+                            18256,
+                            4801,
+                            48
+                        ],
+                        "final_seed": 7115966311937280,
+                        "num_count": 4
+                    }
+                }
+            },
+            {
+                "timestamp": "2026-08-27T01:14:06.828744",
+                "role": "user",
+                "content": "how dangrerous are you",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T01:14:06.846448",
+                "role": "ai",
+                "content": "Hello there.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "Hello there",
+                    "alt_pattern": "['hello', 'there']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T01:14:34.221072",
+                "role": "user",
+                "content": "how dangerous are you",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T01:14:34.238249",
+                "role": "ai",
+                "content": "I am doing great art are bitch bitch.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "greeting",
+                    "base_pattern": "I am doing great",
+                    "alt_pattern": "['i', 'am', 'doing', 'great']"
+                }
+            },
+            {
+                "timestamp": "2026-08-27T01:19:09.548529",
+                "role": "user",
+                "content": "why",
+                "meta": {}
+            },
+            {
+                "timestamp": "2026-08-27T01:19:09.585585",
+                "role": "ai",
+                "content": "How are you holding up out there bitch want are want like want like have.",
+                "meta": {
+                    "engine": 4,
+                    "classification": "words",
+                    "base_pattern": "How are you holding up out there bitch want are want",
+                    "alt_pattern": "['how', 'are', 'you', 'holding', 'up', 'out', 'there', 'bitch', 'want', 'are', 'want']"
+                }
+            }
+        ]
+    }
+}
